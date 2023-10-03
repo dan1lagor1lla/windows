@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="800">
+        Title="Sign Up" Height="800" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -32,7 +32,7 @@
         <TextBox Grid.Row="4" Grid.Column="2" Height="50" Grid.ColumnSpan="2" BorderThickness="3" BorderBrush="Black"/>
         <DockPanel Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Width="250" Height="90">
             <Button DockPanel.Dock="Top" Height="50" Content="Зарегистрироваться" FontFamily="Arial Black" FontSize="15" BorderThickness="3" BorderBrush="Black" Background="Snow"/>
-            <TextBlock Name="SignIn" Foreground="CornflowerBlue" DockPanel.Dock="Bottom" Text="У меня у же есть аккаунт. Войти" TextWrapping="Wrap" Width="160" VerticalAlignment="Center" TextAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="SignIn" Foreground="CornflowerBlue" Text="У меня у же есть аккаунт. Войти" TextWrapping="Wrap" Width="160" VerticalAlignment="Bottom" TextAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
         </DockPanel>
     </Grid>
 </Window>

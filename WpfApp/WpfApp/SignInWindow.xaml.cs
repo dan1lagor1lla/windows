@@ -22,6 +22,13 @@ namespace WpfApp
         public SignInWindow()
         {
             InitializeComponent();
+            SignUp.PreviewMouseLeftButtonDown += SignUp_PreviewMouseLeftButtonDown;
+        }
+
+        private void SignUp_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            new SignInWindow().Show();
+            this.Close();
         }
     }
 }

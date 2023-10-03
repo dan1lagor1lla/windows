@@ -1,5 +1,5 @@
 ﻿WpfApp
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\taras\OneDrive\Рабочий стол\folder\WpfApp\WpfApp\App.xaml
 21682323330
 
-6448847637
+4-403306543
 198-759771931
 MainWindow.xaml;SignInWindow.xaml;
 
