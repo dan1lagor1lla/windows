@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock TextDecorations="Baseline" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" FontSize="50" VerticalAlignment="Center" TextAlignment="Center" Text="Регистрация" FontFamily="TImes New ROman"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" FontSize="30" VerticalAlignment="Center" TextAlignment="Center" Text="Почта:" FontFamily="TImes New ROman"/>
+        <TextBox Grid.Row="2" Grid.Column="2" Height="50" Grid.ColumnSpan="2" BorderThickness="3" BorderBrush="Black"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" FontSize="30" VerticalAlignment="Center" TextAlignment="Center" Text="Логин:" FontFamily="TImes New ROman"/>
+        <TextBox Grid.Row="3" Grid.Column="2" Height="50" Grid.ColumnSpan="2" BorderThickness="3" BorderBrush="Black"/>
+        <TextBlock Grid.Row="4" Grid.Column="1" FontSize="30" VerticalAlignment="Center" TextAlignment="Center" Text="Пароль:" FontFamily="TImes New ROman"/>
+        <TextBox Grid.Row="4" Grid.Column="2" Height="50" Grid.ColumnSpan="2" BorderThickness="3" BorderBrush="Black"/>
+        <DockPanel Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Width="250" Height="90">
+            <Button DockPanel.Dock="Top" Height="50" Content="Зарегистрироваться" FontFamily="Arial Black" FontSize="15" BorderThickness="3" BorderBrush="Black" Background="Snow"/>
+            <TextBlock Name="SignIn" Foreground="CornflowerBlue" DockPanel.Dock="Bottom" Text="У меня у же есть аккаунт. Войти" TextWrapping="Wrap" Width="160" VerticalAlignment="Center" TextAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+        </DockPanel>
+    </Grid>
+</Window>
